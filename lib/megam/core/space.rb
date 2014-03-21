@@ -13,7 +13,7 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
-require 'hashie'
+
 
 module Megam
   class Space
@@ -52,7 +52,6 @@ module Megam
     end
 
     def megam_rest
-      puts "megam_rest entry"     
       Megam::Assembla.new
     end
 
@@ -494,7 +493,6 @@ module Megam
     def self.list(access_token)
       puts  "-----------------------------Entry list"
       space = self.new
-      puts "----------------------------create iniliaze"
       puts access_token
       ss = space.megam_rest.get_spaces(access_token)
       puts ss.inspect

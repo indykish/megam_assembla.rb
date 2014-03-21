@@ -10,19 +10,17 @@ $LOAD_PATH.unshift(__LIB_DIR__)
 end
 
 require "megam/api/errors"
-require "megam/assembla/version"
-require "megam/assembla/spaces"
 require "megam/api/logs"
 require "megam/core/stuff"
 require "megam/core/text"
+require "megam/core/log"
 require "megam/core/json_compat"
 require "megam/core/error"
-require "megam/core/log"
+require "megam/assembla/version"
+require "megam/assembla/spaces"
 require "megam/core/space"
 require "megam/core/space_collection"
 
-# Do you need a random seed now ?
-#srand
 
 module Megam
   class Assembla

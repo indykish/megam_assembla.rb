@@ -7,4 +7,7 @@ class TestSpaces < MiniTest::Unit::TestCase
     response = Megam::Space.list("87ad7110a5de06838b7ebfc334659f68")
     assert_equal(200, response.status)
   end
+
+
+ 
 end
