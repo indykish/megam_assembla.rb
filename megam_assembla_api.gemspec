@@ -18,7 +18,6 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
   s.add_runtime_dependency 'excon', '~> 0.31'
   s.add_runtime_dependency 'yajl-ruby', '~> 1.2'
-  s.add_runtime_dependency 'mixlib-log', '~> 1.6'
   s.add_development_dependency 'minitest', '~> 5.2'
   s.add_development_dependency 'rake', '~> 10.1'
   s.add_runtime_dependency 'megam_api', '~> 0.10'
