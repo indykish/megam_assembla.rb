@@ -9,10 +9,11 @@ unless $LOAD_PATH.include?(__LIB_DIR__)
 $LOAD_PATH.unshift(__LIB_DIR__)
 end
 
-require "megam/core/space"
-require "megam/core/space_collection"
 require "megam/core/stuff"
 require "megam/core/text"
+require "megam/core/log"
+require "megam/core/space"
+require "megam/core/space_collection"
 require "megam/core/json_compat"
 require "megam/core/error"
 require "megam/api/errors"
