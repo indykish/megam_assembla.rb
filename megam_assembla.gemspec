@@ -7,7 +7,7 @@ Gem::Specification.new do |s|
   s.version     = Megam::Assembla::VERSION
   s.authors     = ["Kishorekumar Neelamegam, Thomas Alrin,  Rajthilak"]
   s.email       = ["nkishore@megam.co.in","alrin@megam.co.in", "rajthilak@megam.co.in"]
-  s.homepage    = "http://github.com/megamsys/megam_assembla_api.git"
+  s.homepage    = "http://github.com/megamsys/megam_assembla.rb.git"
   s.license = "Apache V2"
   sextra_rdoc_files = ["README.md", "LICENSE" ]
   s.summary = %q{Ruby Client for the Assembla}
